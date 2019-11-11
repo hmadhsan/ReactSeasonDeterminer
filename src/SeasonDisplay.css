@@ -1,0 +1,55 @@
+.icon-leftTop {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-rightTop {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon-leftBottom {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.icon-rightBottom {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+h1 {
+  color: white;
+  font-size: 36px;
+}
+h2 {
+  color: black;
+  font-size: 36px;
+}
+.tym {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+}
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.season-display.winter i {
+  color: rgb(119, 119, 201);
+}
+.season-display.summer i {
+  color: yellow;
+}
+.winter {
+  background-image: url("https://images.pexels.com/photos/1054201/pexels-photo-1054201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.summer {
+  background-image: url("https://www.zastavki.com/pictures/originals/2014/Nature___Seasons___Spring_Sunny_morning_on_a_spring_field_067755_.jpg");
+}
